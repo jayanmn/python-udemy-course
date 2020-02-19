@@ -1,1 +1,7 @@
 /scrap/
+
+#ingore IDEA project files
+target/
+*.logs
+*.iml
+.idea/
