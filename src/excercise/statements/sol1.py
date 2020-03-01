@@ -7,7 +7,7 @@ st = 'Print only the words that start with s in this sentence'
 
 for c in st.split():
     # if c.startswith('s'):
-    if c[0] == 's':
+    if c[0].lower() == 's':
         print(c)
 
 # shorthand

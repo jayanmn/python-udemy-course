@@ -59,5 +59,40 @@ Useful Operators
 
         outputs -> mylist = ['1','4','9','16','25' ....]
 
+        below returns a list of even numbers
+        args=(1,2,3,4,5,6,7,8,9)
+        [num for num in args if num % 2 == 0]
+
 
        CAUTIONS: Use this only if the for statement is very simple. avoid it for loops with multiple statments.
+
+*args and **kwargs
+    1. *args ( or *<anyname>) is used to pass an arbitrary tuple as argument to function
+        for example, below code without *args
+            def myfunc(a,b,c=0,d=0,....):
+                print(sum(a+b+c+d....) # and everytime you need more arg you update defination and this statement
+            myfunc(1,2,3,4)
+            myfunc(1,2)
+        is similar to below code using args
+            def myfunc(*args):
+                print(sum(args))
+            myfunc(1)
+            myfunc(1, 2)
+             ....
+
+    2. **kwargs (or **<anyname>) i.e. keyword args,  is used to pass an arbitrary dictionary to function
+        for e.g.
+           def myfunc(**kwargs):
+            if 'fruit' in kwargs:
+                print("i like {}".format(kwargs['fruit'])
+            else
+                print("I am sad that you didn't brought fruits")
+
+
+Reverse a list
+    list = [1,2,3,4,5,6]
+    reverse_list = list[::-1]
+
+convert list to string
+    list = [1,2,3,4,5]
+    string_list = "".join(list)
