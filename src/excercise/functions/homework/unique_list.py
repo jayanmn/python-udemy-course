@@ -1,9 +1,10 @@
 def unique_list(lst):
-    uniq_list = []
-    for e in lst:
-        if e not in uniq_list:
-            uniq_list.append(e)
-    return uniq_list
+    return list(set(lst))
+    # uniq_list = []
+    # for e in lst:
+    #     if e not in uniq_list:
+    #         uniq_list.append(e)
+    # return uniq_list
     pass
 
 
