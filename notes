@@ -96,3 +96,6 @@ Reverse a list
 convert list to string
     list = [1,2,3,4,5]
     string_list = "".join(list)
+
+
+pylint --> tool for getting your code quality report

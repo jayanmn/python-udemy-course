@@ -1,15 +1,15 @@
-from src.excercise.functions.excercise.almost_there import almost_there
-from src.excercise.functions.excercise.animal_crackers import animal_crackers
-from src.excercise.functions.excercise.blackjack import blackjack
-from src.excercise.functions.excercise.count_primes import count_primes
-from src.excercise.functions.excercise.has_33 import has_33
-from src.excercise.functions.excercise.lesser_of_two_even import lesser_of_two_evens
-from src.excercise.functions.excercise.makes_twenty import makes_twenty
-from src.excercise.functions.excercise.master_yoda import master_yoda
-from src.excercise.functions.excercise.old_macdonald import old_macdonald
-from src.excercise.functions.excercise.paper_doll import paper_doll
-from src.excercise.functions.excercise.spy_game import spy_game
-from src.excercise.functions.excercise.summer_69 import summer_69
+from src.functions.excercise import blackjack
+from src.functions.excercise import has_33
+from src.functions.excercise import old_macdonald
+from src.functions.excercise.almost_there import almost_there
+from src.functions.excercise.animal_crackers import animal_crackers
+from src.functions.excercise.count_primes import count_primes
+from src.functions.excercise.lesser_of_two_even import lesser_of_two_evens
+from src.functions.excercise.makes_twenty import makes_twenty
+from src.functions.excercise.master_yoda import master_yoda
+from src.functions.excercise.paper_doll import paper_doll
+from src.functions.excercise.spy_game import spy_game
+from src.functions.excercise.summer_69 import summer_69
 
 assert lesser_of_two_evens(2, 4) == 2
 assert lesser_of_two_evens(2, 5) == 5

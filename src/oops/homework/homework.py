@@ -12,8 +12,7 @@ class Cylinder:
     def surface_area(self):
         area_circumference = 2 * self.pi * self.radius * self.height
         area_bottom = self.pi * (self.radius ** 2)
-        area_top = area_bottom
-        return area_top + area_bottom + area_circumference
+        return (2 * area_bottom) + area_circumference
         pass
 
 
